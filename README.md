@@ -1,6 +1,6 @@
-# exploit_dev — CVE-2026-84411 (RouterOS WebFig Pre-Auth Heap Overflow)
+#  CVE-2026-84411 (RouterOS WebFig Pre-Auth Heap Overflow)
 
-**Analyst:** Stephan Botes — Engagement SOW-2026-001 v1.0
+**Analyst:** Stephan Botes 
 **Target:** MikroTik RouterOS < 7.24 (stable) / < 7.23.8 (LT) — verified on CCR2004-1G-12S+2XS, RouterOS 7.22.1
 **Surface:** `POST /jsproxy` (WebFig, port 80) — **unauthenticated**
 
